@@ -1,0 +1,128 @@
+Program: A Set of instructions giving to perform particular task
+
+As a human we can understand only some english format
+But system can understand only binary language( 1 and 0 )
+
+Now I will 3rd person who knows telugu as well as english. He will be working as converter, A person whenever speaks in telugu, he converts to english and vice versa
+
+
+We need a converter to convert English format language(C, Python, Java) to Binary language. This action can be performed by either compiler or interpreter.
+
+Programming language and scripting language
+
+The languages whichever uses compiler to convert to binary format are called programming languages
+
+The languages whichever uses interpreter to convert to binary format are called scripting languages
+
+
+programming languages: It uses compiler. A compiler is a two step process. 1. compilation(It converts to Binary format(compiled code)) 2. execution(executes the binary format and shows the output)
+
+The compiled is always platform dependent 
+py ---> pf independent 
+pyc(compiled files) ---> pf dependent
+
+I am developing an application like notepad++. I sold it to other person.
+In order to get it executed I have to provide source code.
+Other person is very good at programming. He identified the bugs. He has gone through the SC. He modified the source to avoid bugs and then he released a new product like otherpad++ 
+
+
+Scripting Language: Single step process
+No concept of compiled files 
+A single step will always converts to binary format and executes 
+
+In real time most applications will always use the combination of programming and scripting language
+
+Why python? Features of the programming/Scripting language 
+
+Open source: You can use it for Free. By Using you can develop any application and sell them. You can also get the source and modify it as per your needs.
+
+open office -----> MS office
+CentOS  ----> RHEL
+
+I need to develop an application. I had two employees.
+It will take 50 days to develop
+It will take 25 days to develop 
+The customer will pay me $ 10000 for completion of application
+If I go for non open source, licence cost is $ 3000 and $ 2000
+If I go open source, salary will be $ 4000
+If he give us 3 months, I will go for open source 
+If he give us 1 month, I have to go non open source 
+
+2. Easy to develop/maintain:
+
+print "Hello World"
+
+class Myclass {
+
+	public static void main(){
+		system.out.print("Hello World")
+	
+	}
+
+}
+
+3. Large standard library: why python is being sued in Data science/ Machine learning? 
+I want to connect a remote machine and execute a simple command
+Here I will use a library called paramiko 
+import paramiko 
+paramiko.connect(ip/machine)
+By Using ML, I will find a solution and this solution has to be display in UI 
+python has libraries related to ML and it has libraries related to web development(UI)
+If I consider R language it has libraries only related to ML 
+
+4. Embeddable/extendable: 
+c language is more efficient(95%) and security(95%)
+Java is more secured(99%) and efficient(90%)
+
+Python is less efficient and more secured 
+c + python ---> cython
+Java + python ----> jython 
+.net + python ----> ironpython 
+
+
+
+
+
+Identifiers:
+Identifier is the naming convention of the python object where python object can be a variable/Function/class/ Any name in a program 
+Rules of an identifier:
+1. It should contain numbers, alphabets and _ only 
+2. It shouldn't start with numbers 
+3. It shouldn't contain only numbers 
+4. Length of the identifier/name: length can infinite but it always recommended to provide a valid name 
+5. Using predefines library names: I can use predefined names but it's recommended 
+6. we cannot use keywords as a name/identifier
+keyword?  ---> By showing the dog, Can I say it as a cat?
+In a programming also, we are having some reserved words. This words are not nothing but keywords. 
+
+
+Variables, datatypes and operators, conditional statement and loops
+
+Variables: named memory locations
+A variable is used to hold some values that is necessary for our programming
+
+
+Data Type: It indicates what are the various operations(addition, multiplication, comparion etc.) we can perform with that particular data 
+
+Python code can be executed in interactive or script mode;
+
+Interactive mode: First I will trigger up the interpreter and I will execute the python commands
+
+Script mode: All python commands(lines/codes) to be executed are saved in file with extension .py. This file will be sent as argument to python interpreter.
+
+How to read the values from console/
+How to send the data/values from python program to console
+
+
+Operators:
+Arthematic operators: +, -, *, /, //, %(modulos/Remainder), **
+Relational operators: >, <, >=, <=, ==, !=
+Logical operators: and, or, not 
+Assignment operators: =, +=, -=, similarly every arthematic operator with =
+membership operators: in, not in 
+Identity operators: is, is not 
+
+
+
+
+
